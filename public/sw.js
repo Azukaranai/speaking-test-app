@@ -1,4 +1,4 @@
-const APP_CACHE = 'app-v29';
+const APP_CACHE = 'app-v30';
 const AUDIO_CACHE = 'audio-v6';
 
 const APP_ASSETS = [
@@ -17,7 +17,7 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches
       .open(APP_CACHE)
-      .then((cache) => cache.addAll(APP_ASSETS))
+      .then((cache) => precacheAppAssets(cache))
       .then(() => self.skipWaiting())
   );
 });
@@ -51,7 +51,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
 
   if (request.mode === 'navigate') {
-    event.respondWith(cacheFirst('/index.html', APP_CACHE));
+    event.respondWith(handleNavigation(request));
     return;
   }
 
@@ -84,10 +84,42 @@ async function cacheAudio(urls) {
   }
 }
 
+async function precacheAppAssets(cache) {
+  for (const asset of APP_ASSETS) {
+    try {
+      const response = await fetch(asset, { cache: 'no-cache' });
+      if (response.ok && !response.redirected) {
+        await cache.put(asset, response.clone());
+      }
+    } catch (error) {
+      // Ignore cache failures; app will fall back to network.
+    }
+  }
+}
+
+async function handleNavigation(request) {
+  const cache = await caches.open(APP_CACHE);
+  const cached = await cache.match('/index.html');
+  if (cached && !cached.redirected) return cached;
+  try {
+    const response = await fetch('/index.html', { cache: 'no-cache' });
+    if (response.ok && !response.redirected) {
+      cache.put('/index.html', response.clone());
+      return response;
+    }
+  } catch (error) {
+    // Fall through to network below.
+  }
+  return fetch(request);
+}
+
 async function cacheFirst(request, cacheName) {
   const cache = await caches.open(cacheName);
   const cached = await cache.match(request);
-  if (cached) return cached;
+  if (cached) {
+    if (!cached.redirected) return cached;
+    cache.delete(request);
+  }
   const response = await fetch(request);
   if (response && response.ok && !response.redirected) {
     cache.put(request, response.clone());
@@ -106,7 +138,7 @@ async function networkFirst(request) {
   } catch (error) {
     const cache = await caches.open(APP_CACHE);
     const cached = await cache.match(request);
-    if (cached) return cached;
+    if (cached && !cached.redirected) return cached;
     throw error;
   }
 }
