@@ -1,0 +1,338 @@
+{
+  "dialogues": [
+    {
+      "dialogueId": "kai-zh-01",
+      "title": "会話①",
+      "lines": [
+        {
+          "i": 1,
+          "role": "A",
+          "zh": "你家在哪里？",
+          "pinyin": "Nǐ jiā zài nǎlǐ?",
+          "ja": "あなたの家はどこですか？"
+        },
+        {
+          "i": 2,
+          "role": "B",
+          "zh": "我家在涩谷。",
+          "pinyin": "Wǒ jiā zài Sè gǔ.",
+          "ja": "私の家は渋谷にあります。"
+        },
+        {
+          "i": 3,
+          "role": "A",
+          "zh": "你有兄弟姐妹吗？",
+          "pinyin": "Nǐ yǒu xiōngdì jiěmèi ma?",
+          "ja": "兄弟姉妹はいますか？"
+        },
+        {
+          "i": 4,
+          "role": "B",
+          "zh": "没有，我是独生子。你呢？",
+          "pinyin": "Méiyǒu, wǒ shì dúshēngzǐ. Nǐ ne?",
+          "ja": "いいえ、私は一人っ子です。あなたは？"
+        },
+        {
+          "i": 5,
+          "role": "A",
+          "zh": "我有一个姐姐，一个哥哥。",
+          "pinyin": "Wǒ yǒu yí gè jiějie, yí gè gēge.",
+          "ja": "姉が一人、兄が一人います。"
+        },
+        {
+          "i": 6,
+          "role": "B",
+          "zh": "你爸爸在哪里工作？",
+          "pinyin": "Nǐ bàba zài nǎlǐ gōngzuò?",
+          "ja": "お父さんはどこで働いていますか？"
+        },
+        {
+          "i": 7,
+          "role": "A",
+          "zh": "我爸爸在公司工作。",
+          "pinyin": "Wǒ bàba zài gōngsī gōngzuò.",
+          "ja": "父は会社で働いています。"
+        },
+        {
+          "i": 8,
+          "role": "B",
+          "zh": "你妈妈呢？",
+          "pinyin": "Nǐ māma ne?",
+          "ja": "お母さんは？"
+        },
+        {
+          "i": 9,
+          "role": "A",
+          "zh": "我妈妈是家庭妇女。",
+          "pinyin": "Wǒ māma shì jiātíng fùnǚ.",
+          "ja": "母は専業主婦です。"
+        },
+        {
+          "i": 10,
+          "role": "B",
+          "zh": "你是哪个大学的学生？",
+          "pinyin": "Nǐ shì nǎge dàxué de xuéshēng?",
+          "ja": "あなたはどの大学の学生ですか？"
+        },
+        {
+          "i": 11,
+          "role": "A",
+          "zh": "我是青山学院大学的学生。",
+          "pinyin": "Wǒ shì Qīngshān Xuéyuàn Dàxué de xuéshēng.",
+          "ja": "私は青山学院大学の学生です。"
+        },
+        {
+          "i": 12,
+          "role": "B",
+          "zh": "青山学院大学在哪里？",
+          "pinyin": "Qīngshān Xuéyuàn Dàxué zài nǎlǐ?",
+          "ja": "青山学院大学はどこにありますか？"
+        },
+        {
+          "i": 13,
+          "role": "A",
+          "zh": "在表参道。",
+          "pinyin": "Zài Biǎocāndào.",
+          "ja": "表参道にあります。"
+        },
+        {
+          "i": 14,
+          "role": "B",
+          "zh": "你家离学校远吗？",
+          "pinyin": "Nǐ jiā lí xuéxiào yuǎn ma?",
+          "ja": "家は学校から遠いですか？"
+        },
+        {
+          "i": 15,
+          "role": "A",
+          "zh": "很近。",
+          "pinyin": "Hěn jìn.",
+          "ja": "とても近いです。"
+        },
+        {
+          "i": 16,
+          "role": "B",
+          "zh": "你每天怎么去学校？",
+          "pinyin": "Nǐ měitiān zěnme qù xuéxiào?",
+          "ja": "毎日どうやって学校へ行きますか？"
+        },
+        {
+          "i": 17,
+          "role": "A",
+          "zh": "我每天骑自行车去学校。",
+          "pinyin": "Wǒ měitiān qí zìxíngchē qù xuéxiào.",
+          "ja": "毎日自転車で学校へ行きます。"
+        },
+        {
+          "i": 18,
+          "role": "B",
+          "zh": "你在大学学什么？",
+          "pinyin": "Nǐ zài dàxué xué shénme?",
+          "ja": "大学で何を勉強していますか？"
+        },
+        {
+          "i": 19,
+          "role": "A",
+          "zh": "我在大学学汉语。",
+          "pinyin": "Wǒ zài dàxué xué Hànyǔ.",
+          "ja": "大学で中国語を勉強しています。"
+        },
+        {
+          "i": 20,
+          "role": "B",
+          "zh": "汉语难吗？",
+          "pinyin": "Hànyǔ nán ma?",
+          "ja": "中国語は難しいですか？"
+        },
+        {
+          "i": 21,
+          "role": "A",
+          "zh": "发音很难，语法不难。不过，我很喜欢学汉语。",
+          "pinyin": "Fāyīn hěn nán, yǔfǎ bù nán. Bùguò, wǒ hěn xǐhuan xué Hànyǔ.",
+          "ja": "発音は難しいです。文法は難しくないです。でも、中国語を勉強するのがとても好きです。"
+        },
+        {
+          "i": 22,
+          "role": "B",
+          "zh": "你一定能学好汉语。",
+          "pinyin": "Nǐ yídìng néng xuéhǎo Hànyǔ.",
+          "ja": "あなたはきっと中国語を上手に学べます。"
+        },
+        {
+          "i": 23,
+          "role": "A",
+          "zh": "我一定学好汉语。",
+          "pinyin": "Wǒ yídìng xuéhǎo Hànyǔ.",
+          "ja": "私は必ず中国語を上手に勉強します。"
+        }
+      ]
+    },
+    {
+      "dialogueId": "kai-zh-02",
+      "title": "会話②",
+      "lines": [
+        {
+          "i": 1,
+          "role": "A",
+          "zh": "你的爱好是什么？",
+          "pinyin": "Nǐ de àihào shì shénme?",
+          "ja": "あなたの趣味は何ですか？"
+        },
+        {
+          "i": 2,
+          "role": "B",
+          "zh": "我的爱好是游泳和旅游。",
+          "pinyin": "Wǒ de àihào shì yóuyǒng hé lǚyóu.",
+          "ja": "私の趣味は水泳と旅行です。"
+        },
+        {
+          "i": 3,
+          "role": "A",
+          "zh": "你能游多少米？",
+          "pinyin": "Nǐ néng yóu duōshǎo mǐ?",
+          "ja": "何メートル泳げますか？"
+        },
+        {
+          "i": 4,
+          "role": "B",
+          "zh": "我能游一千米。",
+          "pinyin": "Wǒ néng yóu yìqiān mǐ.",
+          "ja": "1000メートル泳げます。"
+        },
+        {
+          "i": 5,
+          "role": "A",
+          "zh": "你去过哪里旅游？",
+          "pinyin": "Nǐ qùguò nǎlǐ lǚyóu?",
+          "ja": "どこへ旅行に行ったことがありますか？"
+        },
+        {
+          "i": 6,
+          "role": "B",
+          "zh": "我去过一次中国。",
+          "pinyin": "Wǒ qùguò yí cì Zhōngguó.",
+          "ja": "中国に一度行ったことがあります。"
+        },
+        {
+          "i": 7,
+          "role": "A",
+          "zh": "你会说汉语吗？",
+          "pinyin": "Nǐ huì shuō Hànyǔ ma?",
+          "ja": "中国語を話せますか？"
+        },
+        {
+          "i": 8,
+          "role": "B",
+          "zh": "会。我在大学学了两年汉语。",
+          "pinyin": "Huì. Wǒ zài dàxué xuéle liǎng nián Hànyǔ.",
+          "ja": "話せます。大学で2年間中国語を勉強しました。"
+        },
+        {
+          "i": 9,
+          "role": "A",
+          "zh": "那你的汉语一定说得跟中国人一样。",
+          "pinyin": "Nà nǐ de Hànyǔ yídìng shuō de gēn Zhōngguó rén yíyàng.",
+          "ja": "じゃああなたの中国語はきっと中国人と同じくらい話せますね。"
+        },
+        {
+          "i": 10,
+          "role": "B",
+          "zh": "哪里哪里。你的爱好是什么？",
+          "pinyin": "Nǎli nǎli. Nǐ de àihào shì shénme?",
+          "ja": "とんでもないです。あなたの趣味は何ですか？"
+        },
+        {
+          "i": 11,
+          "role": "A",
+          "zh": "我的爱好是吃。",
+          "pinyin": "Wǒ de àihào shì chī.",
+          "ja": "私の趣味は食べることです。"
+        },
+        {
+          "i": 12,
+          "role": "B",
+          "zh": "你喜欢吃甜的还是喜欢吃咸的？",
+          "pinyin": "Nǐ xǐhuan chī tián de háishi xǐhuan chī xián de?",
+          "ja": "甘いものとしょっぱいもの、どちらが好きですか？"
+        },
+        {
+          "i": 13,
+          "role": "A",
+          "zh": "我喜欢吃甜的，我最喜欢吃蛋糕。",
+          "pinyin": "Wǒ xǐhuan chī tián de, wǒ zuì xǐhuan chī dàngāo.",
+          "ja": "甘いものが好きです。ケーキが一番好きです。"
+        },
+        {
+          "i": 14,
+          "role": "B",
+          "zh": "你喜欢吃中国菜吗？",
+          "pinyin": "Nǐ xǐhuan chī Zhōngguó cài ma?",
+          "ja": "中国料理は好きですか？"
+        },
+        {
+          "i": 15,
+          "role": "A",
+          "zh": "很喜欢。我还会做中国菜呢。",
+          "pinyin": "Hěn xǐhuan. Wǒ hái huì zuò Zhōngguó cài ne.",
+          "ja": "大好きです。中国料理も作れますよ。"
+        },
+        {
+          "i": 16,
+          "role": "B",
+          "zh": "你是哪个大学的学生？",
+          "pinyin": "Nǐ shì nǎge dàxué de xuéshēng?",
+          "ja": "あなたはどの大学の学生ですか？"
+        },
+        {
+          "i": 17,
+          "role": "A",
+          "zh": "我是青山学院大学的学生。",
+          "pinyin": "Wǒ shì Qīngshān Xuéyuàn Dàxué de xuéshēng.",
+          "ja": "私は青山学院大学の学生です。"
+        },
+        {
+          "i": 18,
+          "role": "B",
+          "zh": "是吗？我也是青山学院大学的学生。你家离学校远吗？",
+          "pinyin": "Shì ma? Wǒ yě shì Qīngshān Xuéyuàn Dàxué de xuéshēng. Nǐ jiā lí xuéxiào yuǎn ma?",
+          "ja": "そうですか。私も青山学院大学の学生です。家は学校から遠いですか？"
+        },
+        {
+          "i": 19,
+          "role": "A",
+          "zh": "我家离学校很远。",
+          "pinyin": "Wǒ jiā lí xuéxiào hěn yuǎn.",
+          "ja": "私の家は学校からとても遠いです。"
+        },
+        {
+          "i": 20,
+          "role": "B",
+          "zh": "你每天怎么去学校？",
+          "pinyin": "Nǐ měitiān zěnme qù xuéxiào?",
+          "ja": "毎日どうやって学校へ行きますか？"
+        },
+        {
+          "i": 21,
+          "role": "A",
+          "zh": "我每天坐电车去学校。",
+          "pinyin": "Wǒ měitiān zuò diànchē qù xuéxiào.",
+          "ja": "毎日電車で学校へ行きます。"
+        },
+        {
+          "i": 22,
+          "role": "B",
+          "zh": "对不起，我一会儿去游泳。明天见。",
+          "pinyin": "Duìbuqǐ, wǒ yīhuìr qù yóuyǒng. Míngtiān jiàn.",
+          "ja": "ごめんなさい、私はこのあと泳ぎに行きます。また明日。"
+        },
+        {
+          "i": 23,
+          "role": "A",
+          "zh": "明天见。",
+          "pinyin": "Míngtiān jiàn.",
+          "ja": "また明日。"
+        }
+      ]
+    }
+  ]
+}
