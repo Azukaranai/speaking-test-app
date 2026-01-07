@@ -48,6 +48,8 @@
   --danger-border: rgba(255, 59, 48, 0.28);
   --line-strong: rgba(0, 0, 0, 0.22);
   --restart-border: rgba(0, 0, 0, 0.68);
+  --control-border: rgba(0, 0, 0, 0.18);
+  --control-panel-border: rgba(0, 0, 0, 0.16);
 }
 
 :root[data-theme="dark"] {
@@ -75,6 +77,8 @@
   --danger-border: rgba(255, 69, 58, 0.35);
   --line-strong: rgba(255, 255, 255, 0.28);
   --restart-border: rgba(255, 255, 255, 0.55);
+  --control-border: rgba(255, 255, 255, 0.22);
+  --control-panel-border: rgba(255, 255, 255, 0.18);
 }
 
 * {
@@ -162,7 +166,7 @@ body {
 }
 
 .theme-toggle {
-  border: 1px solid var(--line);
+  border: 1px solid var(--control-border);
   background: var(--panel);
   color: var(--ink);
   border-radius: 999px;
@@ -186,7 +190,7 @@ body {
   padding: 18px;
   border-radius: 16px;
   background: var(--panel);
-  border: 1px solid var(--line);
+  border: 1px solid var(--control-panel-border);
   box-shadow: var(--shadow);
   margin-bottom: 30px;
 }
@@ -200,7 +204,7 @@ body {
 }
 
 .control-panel-toggle {
-  border: none;
+  border: 1px solid var(--control-border);
   background: var(--chip-bg);
   color: var(--ink);
   border-radius: 999px;
@@ -247,7 +251,7 @@ body {
 .control-group select {
   padding: 10px 12px;
   border-radius: 12px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--control-border);
   background: var(--panel-strong);
   font-family: inherit;
   color: var(--ink);
@@ -287,7 +291,7 @@ body {
 
 .chip {
   border-radius: 10px;
-  border: 1px solid transparent;
+  border: 1px solid var(--control-border);
   background: transparent;
   padding: 8px 10px;
   cursor: pointer;
@@ -304,7 +308,7 @@ body {
 .chip.active {
   background: var(--chip-active-bg);
   color: var(--chip-active-text);
-  border-color: var(--chip-border);
+  border-color: var(--control-border);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
 }
 

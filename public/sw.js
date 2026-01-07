@@ -1,8 +1,7 @@
-const APP_CACHE = 'app-v27';
+const APP_CACHE = 'app-v29';
 const AUDIO_CACHE = 'audio-v6';
 
 const APP_ASSETS = [
-  '/',
   '/index.html',
   '/styles.css',
   '/app.js',
@@ -90,7 +89,7 @@ async function cacheFirst(request, cacheName) {
   const cached = await cache.match(request);
   if (cached) return cached;
   const response = await fetch(request);
-  if (response && response.ok) {
+  if (response && response.ok && !response.redirected) {
     cache.put(request, response.clone());
   }
   return response;
@@ -99,7 +98,7 @@ async function cacheFirst(request, cacheName) {
 async function networkFirst(request) {
   try {
     const response = await fetch(request);
-    if (response && response.ok) {
+    if (response && response.ok && !response.redirected) {
       const cache = await caches.open(APP_CACHE);
       cache.put(request, response.clone());
     }

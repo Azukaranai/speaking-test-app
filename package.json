@@ -1,7 +1,7 @@
 {
   "name": "speaking-test-app",
   "private": true,
-  "version": "0.1.17",
+  "version": "0.1.19",
   "type": "commonjs",
   "scripts": {
     "predev": "node scripts/sync-data.js",
@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "deploy": "npm run build && npx netlify deploy --dir=dist",
     "deploy:prod": "npm run build && npx netlify deploy --prod --dir=dist",
+    "deploy:cf": "npm run build && npx wrangler pages deploy dist --project-name speaking-test-app",
     "tts:pick-voices": "node scripts/tts-pick-voices.js",
     "tts:generate": "node scripts/tts-generate.js",
     "tts:verify": "node scripts/tts-verify.js"
