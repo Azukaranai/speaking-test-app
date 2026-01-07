@@ -3,7 +3,7 @@ const appEl = document.getElementById('app');
 const LOG_STORAGE_KEY = 'speaking-log-v1';
 const THEME_STORAGE_KEY = 'speaking-theme-v1';
 const PLAYBACK_RATE_BASE = 0.6;
-const APP_VERSION = '0.1.14';
+const APP_VERSION = '0.1.17';
 
 const state = {
   dialogues: [],

@@ -1,4 +1,4 @@
-const APP_CACHE = 'app-v25';
+const APP_CACHE = 'app-v27';
 const AUDIO_CACHE = 'audio-v6';
 
 const APP_ASSETS = [
