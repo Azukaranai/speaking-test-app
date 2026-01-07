@@ -88,7 +88,8 @@
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Noto Sans SC", "Hiragino Sans", "PingFang SC", sans-serif;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", "Meiryo",
+    "Noto Sans JP", sans-serif;
   color: var(--ink);
   background: var(--bg);
   transition: background 0.3s ease, color 0.3s ease;
@@ -607,6 +608,7 @@ body {
 .line-zh {
   font-size: 1.2rem;
   font-weight: 600;
+  font-family: "Noto Sans SC", "PingFang SC", "Hiragino Sans", sans-serif;
 }
 
 .line-pinyin {
