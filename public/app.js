@@ -3,7 +3,7 @@ const appEl = document.getElementById('app');
 const LOG_STORAGE_KEY = 'speaking-log-v1';
 const THEME_STORAGE_KEY = 'speaking-theme-v1';
 const PLAYBACK_RATE_BASE = 0.6;
-const APP_VERSION = '0.1.20';
+const APP_VERSION = '0.1.21';
 
 const state = {
   dialogues: [],
@@ -258,8 +258,8 @@ function render() {
     <div class="${appClass}">
       <header class="app-header">
         <div class="title-block">
-          <div class="eyebrow">中国語スピーキングスタジオ</div>
-          <h1>中国語スピーキング対策</h1>
+          <div class="eyebrow">SpeakingCN</div>
+          <h1>SpeakingCN</h1>
           <p class="subtitle">音声を反復し、ロールプレイで口に慣らす。</p>
         </div>
         <div class="header-controls">
