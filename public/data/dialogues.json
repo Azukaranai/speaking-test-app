@@ -333,6 +333,390 @@
           "ja": "また明日。"
         }
       ]
+    },
+    {
+      "dialogueId": "kai-zh-03",
+      "title": "会話③",
+      "lines": [
+        {
+          "i": 1,
+          "role": "A",
+          "zh": "你去过京都吗？",
+          "pinyin": "Nǐ qù guò Jīngdū ma?",
+          "ja": "京都に行ったことある？"
+        },
+        {
+          "i": 2,
+          "role": "B",
+          "zh": "我去过。",
+          "pinyin": "Wǒ qù guò.",
+          "ja": "行ったことあるよ。"
+        },
+        {
+          "i": 3,
+          "role": "A",
+          "zh": "你被人骗过吗？",
+          "pinyin": "Nǐ bèi rén piàn guò ma?",
+          "ja": "人にだまされたことある？"
+        },
+        {
+          "i": 4,
+          "role": "B",
+          "zh": "没有。",
+          "pinyin": "Méi yǒu.",
+          "ja": "ない。"
+        },
+        {
+          "i": 5,
+          "role": "A",
+          "zh": "你最近身体怎么样？",
+          "pinyin": "Nǐ zuìjìn shēntǐ zěnmeyàng?",
+          "ja": "最近体調どう？"
+        },
+        {
+          "i": 6,
+          "role": "B",
+          "zh": "很好，谢谢。",
+          "pinyin": "Hěn hǎo, xièxie.",
+          "ja": "元気だよ、ありがとう。"
+        },
+        {
+          "i": 7,
+          "role": "A",
+          "zh": "你爸爸让你不要做什么？",
+          "pinyin": "Nǐ bàba ràng nǐ búyào zuò shénme?",
+          "ja": "お父さんは何をするなって言う？"
+        },
+        {
+          "i": 8,
+          "role": "B",
+          "zh": "他让我不要熬夜。",
+          "pinyin": "Tā ràng wǒ búyào áoyè.",
+          "ja": "夜ふかしするなって言う。"
+        },
+        {
+          "i": 9,
+          "role": "A",
+          "zh": "你吃得了辣的吗？",
+          "pinyin": "Nǐ chī de liǎo là de ma?",
+          "ja": "辛いの食べられる？"
+        },
+        {
+          "i": 10,
+          "role": "B",
+          "zh": "我可以吃一点。",
+          "pinyin": "Wǒ kěyǐ chī yìdiǎn.",
+          "ja": "少しなら食べられる。"
+        },
+        {
+          "i": 11,
+          "role": "A",
+          "zh": "你会做饭吗？你会做什么菜？",
+          "pinyin": "Nǐ huì zuòfàn ma? Nǐ huì zuò shénme cài?",
+          "ja": "料理できる？何の料理できる？"
+        },
+        {
+          "i": 12,
+          "role": "B",
+          "zh": "我会。我会做炒饭。",
+          "pinyin": "Wǒ huì. Wǒ huì zuò chǎofàn.",
+          "ja": "できる。チャーハン作れる。"
+        },
+        {
+          "i": 13,
+          "role": "A",
+          "zh": "日本的家常菜都有什么？",
+          "pinyin": "Rìběn de jiāchángcài dōu yǒu shénme?",
+          "ja": "日本の家庭料理って何がある？"
+        },
+        {
+          "i": 14,
+          "role": "B",
+          "zh": "比如寿司、乌冬、天妇罗。",
+          "pinyin": "Bǐrú shòusī, wūdōng, tiānfùluó.",
+          "ja": "例えば寿司、うどん、天ぷら。"
+        },
+        {
+          "i": 15,
+          "role": "A",
+          "zh": "你最喜欢吃什么？",
+          "pinyin": "Nǐ zuì xǐhuān chī shénme?",
+          "ja": "一番好きな食べ物は？"
+        },
+        {
+          "i": 16,
+          "role": "B",
+          "zh": "我最喜欢吃寿司。",
+          "pinyin": "Wǒ zuì xǐhuān chī shòusī.",
+          "ja": "寿司が一番好き。"
+        },
+        {
+          "i": 17,
+          "role": "A",
+          "zh": "你的汉语怎么样？",
+          "pinyin": "Nǐ de Hànyǔ zěnmeyàng?",
+          "ja": "中国語どう？"
+        },
+        {
+          "i": 18,
+          "role": "B",
+          "zh": "还可以，我还在学习。",
+          "pinyin": "Hái kěyǐ, wǒ hái zài xuéxí.",
+          "ja": "まあまあ。まだ勉強中。"
+        },
+        {
+          "i": 19,
+          "role": "A",
+          "zh": "你知道那些中国人的名字？",
+          "pinyin": "Nǐ zhīdào nàxiē Zhōngguó rén de míngzì?",
+          "ja": "どんな中国人の名前を知ってる？"
+        },
+        {
+          "i": 20,
+          "role": "B",
+          "zh": "我知道成龙和杨幂。",
+          "pinyin": "Wǒ zhīdào Chéng Lóng hé Yáng Mì.",
+          "ja": "ジャッキー・チェンとヤン・ミーを知ってる。"
+        },
+        {
+          "i": 21,
+          "role": "A",
+          "zh": "你家离开大学远不远？",
+          "pinyin": "Nǐ jiā líkāi dàxué yuǎn bù yuǎn?",
+          "ja": "家は大学から遠い？"
+        },
+        {
+          "i": 22,
+          "role": "B",
+          "zh": "不太远。",
+          "pinyin": "Bú tài yuǎn.",
+          "ja": "あまり遠くない。"
+        },
+        {
+          "i": 23,
+          "role": "A",
+          "zh": "你怎么去学校？",
+          "pinyin": "Nǐ zěnme qù xuéxiào?",
+          "ja": "どうやって学校行くの？"
+        },
+        {
+          "i": 24,
+          "role": "B",
+          "zh": "我坐电车去学校。",
+          "pinyin": "Wǒ zuò diànchē qù xuéxiào.",
+          "ja": "電車で行く。"
+        },
+        {
+          "i": 25,
+          "role": "A",
+          "zh": "从你家到学校坐电车要多长时间？",
+          "pinyin": "Cóng nǐ jiā dào xuéxiào zuò diànchē yào duō cháng shíjiān?",
+          "ja": "電車で家から学校までどれくらい？"
+        },
+        {
+          "i": 26,
+          "role": "B",
+          "zh": "他戴着帽子。",
+          "pinyin": "Tā dàizhe màozi.",
+          "ja": "彼は帽子をかぶっています。"
+        },
+        {
+          "i": 27,
+          "role": "B",
+          "zh": "他戴着眼镜。",
+          "pinyin": "Tā dàizhe yǎnjìng.",
+          "ja": "彼は眼鏡をかけています。"
+        },
+        {
+          "i": 28,
+          "role": "B",
+          "zh": "他戴着口罩。",
+          "pinyin": "Tā dàizhe kǒuzhào.",
+          "ja": "彼はマスクをしています。"
+        },
+        {
+          "i": 29,
+          "role": "A",
+          "zh": "你周末一般干什么？",
+          "pinyin": "Nǐ zhōumò yìbān gàn shénme?",
+          "ja": "週末は普段何する？"
+        },
+        {
+          "i": 30,
+          "role": "B",
+          "zh": "我一般在家休息。",
+          "pinyin": "Wǒ yìbān zài jiā xiūxi.",
+          "ja": "だいたい家で休む。"
+        },
+        {
+          "i": 31,
+          "role": "A",
+          "zh": "你今天早上几点起床的？",
+          "pinyin": "Nǐ jīntiān zǎoshang jǐ diǎn qǐchuáng de?",
+          "ja": "今朝何時に起きた？"
+        },
+        {
+          "i": 32,
+          "role": "B",
+          "zh": "我七点起床的。",
+          "pinyin": "Wǒ qī diǎn qǐchuáng de.",
+          "ja": "7時に起きた。"
+        },
+        {
+          "i": 33,
+          "role": "A",
+          "zh": "你晚上几点睡觉？",
+          "pinyin": "Nǐ wǎnshang jǐ diǎn shuìjiào?",
+          "ja": "夜は何時に寝る？"
+        },
+        {
+          "i": 34,
+          "role": "B",
+          "zh": "我十一点睡觉。",
+          "pinyin": "Wǒ shíyī diǎn shuìjiào.",
+          "ja": "11時に寝る。"
+        },
+        {
+          "i": 35,
+          "role": "A",
+          "zh": "今天比昨天冷吗？",
+          "pinyin": "Jīntiān bǐ zuótiān lěng ma?",
+          "ja": "今日は昨日より寒い？"
+        },
+        {
+          "i": 36,
+          "role": "B",
+          "zh": "差不多。",
+          "pinyin": "Chàbuduō.",
+          "ja": "だいたい同じ。"
+        },
+        {
+          "i": 37,
+          "role": "A",
+          "zh": "你喜欢逛街吗？",
+          "pinyin": "Nǐ xǐhuān guàngjiē ma?",
+          "ja": "買い物（街歩き）好き？"
+        },
+        {
+          "i": 38,
+          "role": "B",
+          "zh": "我喜欢。",
+          "pinyin": "Wǒ xǐhuān.",
+          "ja": "好き。"
+        },
+        {
+          "i": 39,
+          "role": "A",
+          "zh": "你这件衣服不错啊，在哪儿买的？多少钱？",
+          "pinyin": "Nǐ zhè jiàn yīfu búcuò a, zài nǎr mǎi de? Duōshao qián?",
+          "ja": "その服いいね。どこで買ったの？いくら？"
+        },
+        {
+          "i": 40,
+          "role": "B",
+          "zh": "我在网上买的。一千五百块。",
+          "pinyin": "Wǒ zài wǎngshàng mǎi de. Yìqiān wǔbǎi kuài.",
+          "ja": "ネットで買った。1500元くらい。"
+        },
+        {
+          "i": 41,
+          "role": "A",
+          "zh": "他在做什么？（看照片）",
+          "pinyin": "Tā zài zuò shénme? (kàn zhàopiàn)",
+          "ja": "彼は何してる？（写真を見て）"
+        },
+        {
+          "i": 42,
+          "role": "B",
+          "zh": "他在看书。",
+          "pinyin": "Tā zài kàn shū.",
+          "ja": "本を読んでる。"
+        },
+        {
+          "i": 43,
+          "role": "A",
+          "zh": "你春假打算做什么？",
+          "pinyin": "Nǐ chūnjià dǎsuàn zuò shénme?",
+          "ja": "春休みは何する予定？"
+        },
+        {
+          "i": 44,
+          "role": "B",
+          "zh": "我打算去旅行。",
+          "pinyin": "Wǒ dǎsuàn qù lǚxíng.",
+          "ja": "旅行に行く予定。"
+        },
+        {
+          "i": 45,
+          "role": "A",
+          "zh": "你吃午饭了吗？吃的什么？",
+          "pinyin": "Nǐ chī wǔfàn le ma? Chī de shénme?",
+          "ja": "昼ごはん食べた？何食べた？"
+        },
+        {
+          "i": 46,
+          "role": "B",
+          "zh": "吃了。吃了面条。",
+          "pinyin": "Chī le. Chī le miàntiáo.",
+          "ja": "食べた。麺を食べた。"
+        },
+        {
+          "i": 47,
+          "role": "A",
+          "zh": "你每周有几节课？你最喜欢哪门课？",
+          "pinyin": "Nǐ měi zhōu yǒu jǐ jié kè? Nǐ zuì xǐhuān nǎ mén kè?",
+          "ja": "週に何コマ？一番好きな授業は？"
+        },
+        {
+          "i": 48,
+          "role": "B",
+          "zh": "我每周有十节课。我最喜欢汉语课。",
+          "pinyin": "Wǒ měi zhōu yǒu shí jié kè. Wǒ zuì xǐhuān Hànyǔ kè.",
+          "ja": "週10コマ。中国語の授業が一番好き。"
+        },
+        {
+          "i": 49,
+          "role": "A",
+          "zh": "你看过中国电影吗？",
+          "pinyin": "Nǐ kàn guò Zhōngguó diànyǐng ma?",
+          "ja": "中国映画見たことある？"
+        },
+        {
+          "i": 50,
+          "role": "B",
+          "zh": "看过。我看过《功夫》。",
+          "pinyin": "Kàn guò. Wǒ kàn guò “Gōngfū”.",
+          "ja": "ある。『功夫（カンフー・ハッスル）』を見た。"
+        },
+        {
+          "i": 51,
+          "role": "A",
+          "zh": "毕业了，你想做什么工作？",
+          "pinyin": "Bìyè le, nǐ xiǎng zuò shénme gōngzuò?",
+          "ja": "卒業したらどんな仕事したい？"
+        },
+        {
+          "i": 52,
+          "role": "B",
+          "zh": "我想做IT工作。",
+          "pinyin": "Wǒ xiǎng zuò IT gōngzuò.",
+          "ja": "IT系の仕事がしたい。"
+        },
+        {
+          "i": 53,
+          "role": "A",
+          "zh": "请描述一下他的穿着打扮。（看照片）",
+          "pinyin": "Qǐng miáoshù yíxià tā de chuānzhuó dǎbàn. (kàn zhàopiàn)",
+          "ja": "服装・身なりを説明して。（写真を見て）"
+        },
+        {
+          "i": 54,
+          "role": "B",
+          "zh": "他穿着白色衬衫，黑色裤子。",
+          "pinyin": "Tā chuānzhe báisè chènshān, hēisè kùzi.",
+          "ja": "白いシャツに黒いズボン。"
+        }
+      ]
     }
   ]
 }
