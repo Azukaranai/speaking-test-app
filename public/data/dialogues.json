@@ -516,215 +516,201 @@
         {
           "i": 26,
           "role": "B",
-          "zh": "他戴着帽子。",
-          "pinyin": "Tā dàizhe màozi.",
-          "ja": "彼は帽子をかぶっています。"
+          "zh": "大概三十分钟。",
+          "pinyin": "Dàgài sānshí fēnzhōng.",
+          "ja": "だいたい30分。"
         },
         {
           "i": 27,
-          "role": "B",
-          "zh": "他戴着眼镜。",
-          "pinyin": "Tā dàizhe yǎnjìng.",
-          "ja": "彼は眼鏡をかけています。"
-        },
-        {
-          "i": 28,
-          "role": "B",
-          "zh": "他戴着口罩。",
-          "pinyin": "Tā dàizhe kǒuzhào.",
-          "ja": "彼はマスクをしています。"
-        },
-        {
-          "i": 29,
           "role": "A",
           "zh": "你周末一般干什么？",
           "pinyin": "Nǐ zhōumò yìbān gàn shénme?",
           "ja": "週末は普段何する？"
         },
         {
-          "i": 30,
+          "i": 28,
           "role": "B",
           "zh": "我一般在家休息。",
           "pinyin": "Wǒ yìbān zài jiā xiūxi.",
           "ja": "だいたい家で休む。"
         },
         {
-          "i": 31,
+          "i": 29,
           "role": "A",
           "zh": "你今天早上几点起床的？",
           "pinyin": "Nǐ jīntiān zǎoshang jǐ diǎn qǐchuáng de?",
           "ja": "今朝何時に起きた？"
         },
         {
-          "i": 32,
+          "i": 30,
           "role": "B",
           "zh": "我七点起床的。",
           "pinyin": "Wǒ qī diǎn qǐchuáng de.",
           "ja": "7時に起きた。"
         },
         {
-          "i": 33,
+          "i": 31,
           "role": "A",
           "zh": "你晚上几点睡觉？",
           "pinyin": "Nǐ wǎnshang jǐ diǎn shuìjiào?",
           "ja": "夜は何時に寝る？"
         },
         {
-          "i": 34,
+          "i": 32,
           "role": "B",
           "zh": "我十一点睡觉。",
           "pinyin": "Wǒ shíyī diǎn shuìjiào.",
           "ja": "11時に寝る。"
         },
         {
-          "i": 35,
+          "i": 33,
           "role": "A",
           "zh": "今天比昨天冷吗？",
           "pinyin": "Jīntiān bǐ zuótiān lěng ma?",
           "ja": "今日は昨日より寒い？"
         },
         {
-          "i": 36,
+          "i": 34,
           "role": "B",
           "zh": "差不多。",
           "pinyin": "Chàbuduō.",
           "ja": "だいたい同じ。"
         },
         {
-          "i": 37,
+          "i": 35,
           "role": "A",
           "zh": "你喜欢逛街吗？",
           "pinyin": "Nǐ xǐhuān guàngjiē ma?",
           "ja": "買い物（街歩き）好き？"
         },
         {
-          "i": 38,
+          "i": 36,
           "role": "B",
           "zh": "我喜欢。",
           "pinyin": "Wǒ xǐhuān.",
           "ja": "好き。"
         },
         {
-          "i": 39,
+          "i": 37,
           "role": "A",
           "zh": "你这件衣服不错啊，在哪儿买的？多少钱？",
           "pinyin": "Nǐ zhè jiàn yīfu búcuò a, zài nǎr mǎi de? Duōshao qián?",
           "ja": "その服いいね。どこで買ったの？いくら？"
         },
         {
-          "i": 40,
+          "i": 38,
           "role": "B",
           "zh": "我在网上买的。一千五百块。",
           "pinyin": "Wǒ zài wǎngshàng mǎi de. Yìqiān wǔbǎi kuài.",
           "ja": "ネットで買った。1500元くらい。"
         },
         {
-          "i": 41,
+          "i": 39,
           "role": "A",
           "zh": "他在做什么？（看照片）",
           "pinyin": "Tā zài zuò shénme? (kàn zhàopiàn)",
           "ja": "彼は何してる？（写真を見て）"
         },
         {
-          "i": 42,
+          "i": 40,
           "role": "B",
           "zh": "他在看书。",
           "pinyin": "Tā zài kàn shū.",
           "ja": "本を読んでる。"
         },
         {
-          "i": 43,
+          "i": 41,
           "role": "A",
           "zh": "你春假打算做什么？",
           "pinyin": "Nǐ chūnjià dǎsuàn zuò shénme?",
           "ja": "春休みは何する予定？"
         },
         {
-          "i": 44,
+          "i": 42,
           "role": "B",
           "zh": "我打算去旅行。",
           "pinyin": "Wǒ dǎsuàn qù lǚxíng.",
           "ja": "旅行に行く予定。"
         },
         {
-          "i": 45,
+          "i": 43,
           "role": "A",
           "zh": "你吃午饭了吗？吃的什么？",
           "pinyin": "Nǐ chī wǔfàn le ma? Chī de shénme?",
           "ja": "昼ごはん食べた？何食べた？"
         },
         {
-          "i": 46,
+          "i": 44,
           "role": "B",
           "zh": "吃了。吃了面条。",
           "pinyin": "Chī le. Chī le miàntiáo.",
           "ja": "食べた。麺を食べた。"
         },
         {
-          "i": 47,
+          "i": 45,
           "role": "A",
           "zh": "你每周有几节课？你最喜欢哪门课？",
           "pinyin": "Nǐ měi zhōu yǒu jǐ jié kè? Nǐ zuì xǐhuān nǎ mén kè?",
           "ja": "週に何コマ？一番好きな授業は？"
         },
         {
-          "i": 48,
+          "i": 46,
           "role": "B",
           "zh": "我每周有十节课。我最喜欢汉语课。",
           "pinyin": "Wǒ měi zhōu yǒu shí jié kè. Wǒ zuì xǐhuān Hànyǔ kè.",
           "ja": "週10コマ。中国語の授業が一番好き。"
         },
         {
-          "i": 49,
+          "i": 47,
           "role": "A",
           "zh": "你看过中国电影吗？",
           "pinyin": "Nǐ kàn guò Zhōngguó diànyǐng ma?",
           "ja": "中国映画見たことある？"
         },
         {
-          "i": 50,
+          "i": 48,
           "role": "B",
           "zh": "看过。我看过《功夫》。",
           "pinyin": "Kàn guò. Wǒ kàn guò “Gōngfū”.",
           "ja": "ある。『功夫（カンフー・ハッスル）』を見た。"
         },
         {
-          "i": 51,
+          "i": 49,
           "role": "A",
           "zh": "毕业了，你想做什么工作？",
           "pinyin": "Bìyè le, nǐ xiǎng zuò shénme gōngzuò?",
           "ja": "卒業したらどんな仕事したい？"
         },
         {
-          "i": 52,
+          "i": 50,
           "role": "B",
           "zh": "我想做IT工作。",
           "pinyin": "Wǒ xiǎng zuò IT gōngzuò.",
           "ja": "IT系の仕事がしたい。"
         },
         {
-          "i": 53,
+          "i": 51,
           "role": "A",
           "zh": "请描述一下他的穿着打扮。（看照片）",
           "pinyin": "Qǐng miáoshù yíxià tā de chuānzhuó dǎbàn. (kàn zhàopiàn)",
           "ja": "服装・身なりを説明して。（写真を見て）"
         },
         {
-          "i": 54,
+          "i": 52,
           "role": "B",
           "zh": "他戴着帽子。",
           "pinyin": "Tā dàizhe màozi.",
           "ja": "彼は帽子をかぶっています。"
         },
         {
-          "i": 55,
+          "i": 53,
           "role": "B",
           "zh": "他戴着眼镜。",
           "pinyin": "Tā dàizhe yǎnjìng.",
           "ja": "彼は眼鏡をかけています。"
         },
         {
-          "i": 56,
+          "i": 54,
           "role": "B",
           "zh": "他戴着口罩。",
           "pinyin": "Tā dàizhe kǒuzhào.",
