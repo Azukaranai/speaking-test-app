@@ -712,9 +712,23 @@
         {
           "i": 54,
           "role": "B",
-          "zh": "他穿着白色衬衫，黑色裤子。",
-          "pinyin": "Tā chuānzhe báisè chènshān, hēisè kùzi.",
-          "ja": "白いシャツに黒いズボン。"
+          "zh": "他戴着帽子。",
+          "pinyin": "Tā dàizhe màozi.",
+          "ja": "彼は帽子をかぶっています。"
+        },
+        {
+          "i": 55,
+          "role": "B",
+          "zh": "他戴着眼镜。",
+          "pinyin": "Tā dàizhe yǎnjìng.",
+          "ja": "彼は眼鏡をかけています。"
+        },
+        {
+          "i": 56,
+          "role": "B",
+          "zh": "他戴着口罩。",
+          "pinyin": "Tā dàizhe kǒuzhào.",
+          "ja": "彼はマスクをしています。"
         }
       ]
     }
